@@ -1,3 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Cinzel:wght@400..900&display=swap');
+
+
+@font-face {
+  font-family: "grand-amoura";
+  src: url("../font/GrandAmouraDemo.ttf") format("truetype");
+}
+
 * {
   font-family: "Roboto", sans-serif;
+}
+
+/* base */
+.font-baskervville {
+  font-family: "Baskervville", serif;
+  font-style: normal;
+}
+
+.font-grand-amoura {
+  font-family: "grand-amoura", serif;
+  font-style: normal;
+}
+
+
+.font-cinzel-regular {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* sections */
+section.section--main div.header,
+section.section--main div.content {
+  color: #906E50;
+}
+
+
+/* component */
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header h1 {
+  line-height: 1;
+  padding-top: .5rem;
+  position: relative;
+  transform: rotate(180deg);
+  white-space: nowrap;
+  writing-mode: vertical-rl;
+  font-family: "Baskervville", serif;
+  font-weight: 400;
 }
