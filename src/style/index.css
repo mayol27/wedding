@@ -65,5 +65,11 @@ section.section--main div.content {
 /* entourage */
 section.section--entourage div.header,
 section.section--entourage div.content {
-  color: #FEFFFD;
+  color: #FFFFFF;
+}
+
+/* details */
+section.section--details div.header,
+section.section--details div.content {
+  color: #FFFEFF;
 }

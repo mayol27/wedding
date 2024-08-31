@@ -5,6 +5,7 @@ tailwind.config = {
       colors: {
         brown01: "#E8DBC7",
         brown02: "#BB9F9B",
+        brown03: "#CBB1A1",
         white01: "#FEFFFD",
       },
       screens: {
