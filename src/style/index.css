@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Cinzel:wght@400..900&display=swap');
 
 
@@ -6,8 +10,14 @@
   src: url("../font/GrandAmouraDemo.ttf") format("truetype");
 }
 
+
+
 * {
   font-family: "Roboto", sans-serif;
+
+  p {
+    line-height: 1.3;
+  }
 }
 
 /* base */
@@ -21,17 +31,10 @@
   font-style: normal;
 }
 
-
 .font-cinzel-regular {
   font-family: "Cinzel", serif;
   font-optical-sizing: auto;
   font-style: normal;
-}
-
-/* sections */
-section.section--main div.header,
-section.section--main div.content {
-  color: #906E50;
 }
 
 
@@ -50,4 +53,17 @@ section.section--main div.content {
   writing-mode: vertical-rl;
   font-family: "Baskervville", serif;
   font-weight: 400;
+}
+
+/* sections */
+/* main */
+section.section--main div.header,
+section.section--main div.content {
+  color: #906E50;
+}
+
+/* entourage */
+section.section--entourage div.header,
+section.section--entourage div.content {
+  color: #FEFFFD;
 }
