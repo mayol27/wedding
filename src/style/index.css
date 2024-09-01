@@ -18,6 +18,11 @@
   }
 }
 
+#hiddenDiv {
+  display: none;
+  /* Initially hide the div */
+}
+
 /* base */
 .font-baskervville {
   font-family: "Baskervville", serif;
