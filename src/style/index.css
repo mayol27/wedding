@@ -10,8 +10,6 @@
   src: url("../font/GrandAmouraDemo.ttf") format("truetype");
 }
 
-
-
 * {
   font-family: "Roboto", sans-serif;
 
@@ -72,4 +70,10 @@ section.section--entourage div.content {
 section.section--details div.header,
 section.section--details div.content {
   color: #FFFEFF;
+}
+
+/* rsvp */
+section.section--rsvp div.header,
+section.section--rsvp div.content {
+  color: #918174;
 }
