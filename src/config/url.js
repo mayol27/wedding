@@ -253,7 +253,7 @@ switch (user) {
     break;
   case "flor":
     name = "mrs. flor";
-    rsvp = 2;
+    rsvp = 1;
     break;
   case "darylGrace":
     name = "Daryl & Grace";
