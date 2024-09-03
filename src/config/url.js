@@ -135,15 +135,15 @@ switch (user) {
     break;
   case "labaya":
     name = "mr. & mrs. labaya";
-    rsvp = 1;
+    rsvp = 2;
     break;
   case "gulayan":
     name = "mr. & mrs. gulayan";
-    rsvp = 1;
+    rsvp = 2;
     break;
   case "pino":
     name = "mr. andrew & mrs philip pino";
-    rsvp = 1;
+    rsvp = 2;
     break;
 
   // mel
