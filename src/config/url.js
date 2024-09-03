@@ -153,6 +153,18 @@ switch (user) {
     name = "mr. andrew & mrs philip pino";
     rsvp = 2;
     break;
+  case "jorina":
+    name = "mrs. jorina mayol";
+    rsvp = 2;
+    break;
+  case "francisco":
+    name = "mrs. jorina m. francisco";
+    rsvp = 2;
+    break;
+  case "moria":
+    name = "mr. & mrs. moria";
+    rsvp = 2;
+    break;
 
   // mel
   case "ronaJel":
