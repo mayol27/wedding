@@ -309,9 +309,13 @@ switch (user) {
     break;
   case "diaz":
     name = "mr. & mrs. diaz";
-    rsvp = 1;
+    rsvp = 2;
   case "sanchez":
     name = "mr. & mrs. sanchez";
+    rsvp = 2;
+    break;
+  case "mekai":
+    name = "ms. mekai";
     rsvp = 1;
     break;
   //
