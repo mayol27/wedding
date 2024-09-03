@@ -41,6 +41,14 @@ switch (user) {
     name = "mr. christian & ms. grace";
     rsvp = 2;
     break;
+  case "manalon":
+    name = "mr. christian manalon";
+    rsvp = 1;
+    break;
+  case "engbino":
+    name = "mr. engbino";
+    rsvp = 1;
+    break;
   case "reyMayol":
     name = "mr. rey mayol";
     rsvp = 2;
@@ -297,6 +305,13 @@ switch (user) {
     break;
   case "paulCharlotte":
     name = "mr. paul & mrs. charlotte";
+    rsvp = 1;
+    break;
+  case "diaz":
+    name = "mr. & mrs. diaz";
+    rsvp = 1;
+  case "diaz":
+    name = "mr. & mrs. sanchez";
     rsvp = 1;
     break;
   //
