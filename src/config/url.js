@@ -41,20 +41,6 @@ switch (user) {
     name = "mr. christian & ms. grace";
     rsvp = 2;
     break;
-  // mel
-  case "ronaJel":
-    name = "mrs. rona jel";
-    rsvp = 1;
-    break;
-  case "lowellaJen":
-    name = "ms. lowella jen";
-    rsvp = 1;
-    break;
-  case "deGracia":
-    name = "mr. & mrs. de gracia";
-    rsvp = 2;
-    break;
-  // mayol
   case "reyMayol":
     name = "mr. rey mayol";
     rsvp = 2;
@@ -72,7 +58,7 @@ switch (user) {
     rsvp = 2;
     break;
   case "ianReeka":
-    name = "mr. ian & mrs. reeka";
+    name = "mr. & mrs. valle";
     rsvp = 2;
     break;
   case "bryanChristine":
@@ -95,26 +81,6 @@ switch (user) {
     name = "ms. therese anne";
     rsvp = 1;
     break;
-  case "yap":
-    name = "mr. & mrs. yap";
-    rsvp = 2;
-    break;
-  case "philbo":
-    name = "mr. philbo";
-    rsvp = 1;
-    break;
-  case "dean":
-    name = "mr. dean";
-    rsvp = 1;
-    break;
-  case "rhox":
-    name = "mr. rhox";
-    rsvp = 1;
-    break;
-  case "kevin":
-    name = "mr. kevin rey";
-    rsvp = 1;
-    break;
   case "robertRoame":
     name = "mr. robert & ms. roame";
     rsvp = 2;
@@ -122,30 +88,6 @@ switch (user) {
   case "jordan":
     name = "mr. jordan segismar";
     rsvp = 1;
-    break;
-  case "isha":
-    name = "myy's";
-    rsvp = 1;
-    break;
-  case "george":
-    name = "mr. george";
-    rsvp = 1;
-    break;
-  case "dennis":
-    name = "mr. dennis";
-    rsvp = 1;
-    break;
-  case "lorrie":
-    name = "mrs. lorrie dane";
-    rsvp = 1;
-    break;
-  case "dannielle":
-    name = "ms. dannielle mae";
-    rsvp = 1;
-    break;
-  case "mayol":
-    name = "mrs. & mrs. mayol";
-    rsvp = 2;
     break;
   case "kuya":
     name = "mr. & mrs. mayol";
@@ -166,6 +108,96 @@ switch (user) {
   case "magalso":
     name = "mr. john magalso";
     rsvp = 2;
+    break;
+  case "raymond":
+    name = "mr. raymond";
+    rsvp = 1;
+    break;
+  case "tanilon":
+    name = "mr. & mrs. tanilon";
+    rsvp = 2;
+    break;
+  case "gonzaga":
+    name = "mr. gonzaga";
+    rsvp = 1;
+    break;
+  case "caren":
+    name = "Ms. Caren";
+    rsvp = 1;
+    break;
+  case "anjo":
+    name = "mrs. anjo";
+    rsvp = 1;
+    break;
+  case "jeonghoon":
+    name = "mr. jeonghoon";
+    rsvp = 1;
+    break;
+  case "labaya":
+    name = "mr. & mrs. labaya";
+    rsvp = 1;
+    break;
+  case "gulayan":
+    name = "mr. & mrs. gulayan";
+    rsvp = 1;
+    break;
+  case "pino":
+    name = "mr. andrew & mrs philip pino";
+    rsvp = 1;
+    break;
+
+  // mel
+  case "ronaJel":
+    name = "mrs. rona jel";
+    rsvp = 1;
+    break;
+  case "lowellaJen":
+    name = "ms. lowella jen";
+    rsvp = 1;
+    break;
+  case "deGracia":
+    name = "mr. & mrs. de gracia";
+    rsvp = 2;
+    break;
+  case "yap":
+    name = "mr. & mrs. yap";
+    rsvp = 2;
+    break;
+  case "philbo":
+    name = "mr. philbo";
+    rsvp = 1;
+    break;
+  case "dean":
+    name = "mr. dean";
+    rsvp = 1;
+    break;
+  case "rhox":
+    name = "mr. rhox";
+    rsvp = 1;
+    break;
+  case "kevin":
+    name = "mr. kevin rey";
+    rsvp = 1;
+    break;
+  case "myy":
+    name = "myy's";
+    rsvp = 1;
+    break;
+  case "george":
+    name = "mr. george";
+    rsvp = 1;
+    break;
+  case "dennis":
+    name = "mr. dennis";
+    rsvp = 1;
+    break;
+  case "lorrie":
+    name = "mrs. lorrie dane";
+    rsvp = 1;
+    break;
+  case "dannielle":
+    name = "ms. dannielle mae";
+    rsvp = 1;
     break;
   case "marcelina":
     name = "mrs. marcelina";
@@ -247,10 +279,6 @@ switch (user) {
     name = "mrs. joy";
     rsvp = 1;
     break;
-  case "tanilon":
-    name = "mr. & mrs. tanilon";
-    rsvp = 2;
-    break;
   case "joseph":
     name = "mr. joseph";
     rsvp = 1;
@@ -263,14 +291,20 @@ switch (user) {
     name = "mr. allen";
     rsvp = 1;
     break;
+  case "bantang":
+    name = "mr. bantang";
+    rsvp = 1;
+    break;
+  case "paulCharlotte":
+    name = "mr. paul & mrs. charlotte";
+    rsvp = 1;
+    break;
+  //
   case "jm":
     name = "john & mel";
     rsvp = 1;
     break;
-  case "gonzaga":
-    name = "mr. gonzaga";
-    rsvp = 1;
-    break;
+
   default:
     name = "error";
     rsvp = "error";
