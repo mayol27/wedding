@@ -310,7 +310,7 @@ switch (user) {
   case "diaz":
     name = "mr. & mrs. diaz";
     rsvp = 1;
-  case "diaz":
+  case "sanchez":
     name = "mr. & mrs. sanchez";
     rsvp = 1;
     break;
