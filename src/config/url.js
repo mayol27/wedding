@@ -9,6 +9,10 @@ switch (user) {
     name = "BES 2.0";
     rsvp = 1;
     break;
+  case "ccs":
+    name = "ccs family";
+    rsvp = 1;
+    break;
   case "arah":
     name = "ms. arah niÑa";
     rsvp = 1;
@@ -30,7 +34,7 @@ switch (user) {
     rsvp = 2;
     break;
   case "wilsonMarian":
-    name = "mr. wilson & mrs. marian";
+    name = "mr. & mrs. segismar";
     rsvp = 2;
     break;
   case "christiangrace":
@@ -72,7 +76,11 @@ switch (user) {
     rsvp = 2;
     break;
   case "bryanChristine":
-    name = "mr. bryan & mrs. christine";
+    name = "mr. & mrs. segismar";
+    rsvp = 2;
+    break;
+  case "lebumfacil":
+    name = "mr. & mrs. lebumfacil";
     rsvp = 2;
     break;
   case "maribel":
@@ -112,11 +120,11 @@ switch (user) {
     rsvp = 2;
     break;
   case "jordan":
-    name = "mr. jordan seigmar";
+    name = "mr. jordan segismar";
     rsvp = 1;
     break;
   case "isha":
-    name = "isha";
+    name = "myy's";
     rsvp = 1;
     break;
   case "george":
@@ -139,8 +147,8 @@ switch (user) {
     name = "mrs. & mrs. mayol";
     rsvp = 2;
     break;
-  case "mayol":
-    name = "mrs. & mrs. mayol";
+  case "kuya":
+    name = "mr. & mrs. mayol";
     rsvp = 2;
     break;
   case "jeff":
@@ -167,12 +175,8 @@ switch (user) {
     name = "ms. alona";
     rsvp = 1;
     break;
-  case "coraon":
-    name = "ms. coraon";
-    rsvp = 1;
-    break;
-  case "coraon":
-    name = "ms. coraon";
+  case "corazon":
+    name = "ms. corazon";
     rsvp = 1;
     break;
   case "william":
@@ -184,11 +188,83 @@ switch (user) {
     rsvp = 1;
     break;
   case "wendel":
-    name = "mr. wendel";
+    name = "mr. wendell";
     rsvp = 1;
     break;
   case "bernard":
     name = "mr. bernard";
+    rsvp = 1;
+    break;
+  case "dunn":
+    name = "mr. & mrs. dunn";
+    rsvp = 2;
+    break;
+  case "jasmine":
+    name = "ms. jasmine";
+    rsvp = 1;
+    break;
+  case "alguno":
+    name = "mr. & mrs. alguno";
+    rsvp = 2;
+    break;
+  case "diacoma":
+    name = "mr. & mrs. diacoma";
+    rsvp = 2;
+    break;
+  case "catherine":
+    name = "ms. catherine";
+    rsvp = 1;
+    break;
+  case "seno":
+    name = "mr. & mrs. seno";
+    rsvp = 2;
+    break;
+  case "flor":
+    name = "mrs. flor";
+    rsvp = 2;
+    break;
+  case "darylGrace":
+    name = "Daryl & Grace";
+    rsvp = 2;
+    break;
+  case "raymond":
+    name = "mr. raymond";
+    rsvp = 1;
+    break;
+  case "jerry":
+    name = "ms. Jerry";
+    rsvp = 1;
+    break;
+  case "jen":
+    name = "ms. jen";
+    rsvp = 1;
+    break;
+  case "joan":
+    name = "mrs. joan";
+    rsvp = 1;
+    break;
+  case "joy":
+    name = "mrs. joy";
+    rsvp = 1;
+    break;
+  case "tanilon":
+    name = "mr. & mrs. tanilon";
+    rsvp = 2;
+    break;
+  case "joseph":
+    name = "mr. joseph";
+    rsvp = 1;
+    break;
+  case "paul":
+    name = "mr. paul";
+    rsvp = 1;
+    break;
+  case "allen":
+    name = "mr. allen";
+    rsvp = 1;
+    break;
+  case "jm":
+    name = "john & mel";
     rsvp = 1;
     break;
   default:
@@ -196,12 +272,15 @@ switch (user) {
     rsvp = "error";
 }
 
-const div = document.getElementById("hiddenDiv");
+const content = document.getElementById("content-wedding");
+const broken = document.getElementById("broken-link");
 
 if (name === "error") {
-  div.style.display = "none";
+  content.style.display = "none";
+  broken.style.display = "block";
 } else {
-  div.style.display = "block";
+  content.style.display = "block";
+  broken.style.display = "none";
 }
 
 document.getElementById("name").innerHTML = name;
