@@ -150,7 +150,7 @@ switch (user) {
     rsvp = 2;
     break;
   case "pino":
-    name = "mr. andrew & mrs philip pino";
+    name = "mr. andrew pino & mr. philip pino";
     rsvp = 2;
     break;
   case "jorina":
