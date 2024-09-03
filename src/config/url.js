@@ -267,6 +267,10 @@ switch (user) {
     name = "john & mel";
     rsvp = 1;
     break;
+  case "gonzaga":
+    name = "mr. gonzaga";
+    rsvp = 1;
+    break;
   default:
     name = "error";
     rsvp = "error";
