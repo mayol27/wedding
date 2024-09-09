@@ -2,6 +2,7 @@ const params = new URLSearchParams(document.location.search);
 const user = params.get("rsvp");
 var name;
 var rsvp;
+var eInvite;
 
 switch (user) {
   // jon
@@ -335,21 +336,36 @@ switch (user) {
     name = "john & mel";
     rsvp = 1;
     break;
+  // eInvite
+  case "boysen":
+    name = "mr. and mrs. segismar";
+    eInvite = 1;
+    break;
+  case "luz":
+    name = "mr. and mrs. luz";
+    eInvite = 1;
+    break;
 
   default:
     name = "error";
     rsvp = "error";
 }
 
-const content = document.getElementById("content-wedding");
-const broken = document.getElementById("broken-link");
+const contentClass = document.getElementById("content-wedding");
+const brokenClass = document.getElementById("broken-link");
+const eInviteClass = document.getElementById("eInvite-link");
+const rsvpClass = document.getElementById("rsvpClass-link");
 
 if (name === "error") {
-  content.style.display = "none";
-  broken.style.display = "block";
+  contentClass.style.display = "none";
 } else {
-  content.style.display = "block";
-  broken.style.display = "none";
+  brokenClass.style.display = "none";
+}
+
+if (eInvite === 1) {
+  rsvpClass.style.display = "none";
+} else {
+  eInviteClass.style.display = "none";
 }
 
 document.getElementById("name").innerHTML = name;
