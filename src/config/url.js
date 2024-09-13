@@ -385,4 +385,5 @@ if (eInvite === 1) {
 }
 
 document.getElementById("name").innerHTML = name;
+document.getElementById("names").innerHTML = name;
 document.getElementById("rsvp").innerHTML = rsvp;
