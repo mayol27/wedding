@@ -347,6 +347,14 @@ switch (user) {
     name = "mr. kurbien";
     rsvp = 1;
     break;
+  case "thelma":
+    name = "ms. thelma";
+    rsvp = 1;
+    break;
+  case "mingla":
+    name = "mr. mingla";
+    rsvp = 1;
+    break;
   //
   case "jm":
     name = "john & mel";
