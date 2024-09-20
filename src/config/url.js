@@ -352,7 +352,7 @@ switch (user) {
     rsvp = 1;
     break;
   case "mingla":
-    name = "mr. mingla";
+    name = "3 kings mr. minglanilla";
     rsvp = 1;
     break;
   //
