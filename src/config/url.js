@@ -14,9 +14,9 @@ switch (user) {
     name = "ccs family";
     rsvp = 1;
     break;
-  case "arah":
-    name = "ms. arah niÑa";
-    rsvp = 1;
+  case "johnray":
+    name = "mr john ray d. anuada";
+    rsvp = 3;
     break;
   case "dianne":
     name = "ms. dianne overland";
