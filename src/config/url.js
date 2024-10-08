@@ -355,6 +355,10 @@ switch (user) {
     name = "3 kings mr. minglanilla";
     rsvp = 1;
     break;
+  case "monique":
+    name = "ms. monique anne ylagan";
+    rsvp = 1;
+    break;
   //
   case "jm":
     name = "john & mel";
