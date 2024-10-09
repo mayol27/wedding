@@ -331,8 +331,8 @@ switch (user) {
     name = "ms. mekai";
     rsvp = 1;
     break;
-  case "alber":
-    name = "mr. alber";
+  case "albert":
+    name = "mr. albert";
     rsvp = 1;
     break;
   case "wilfredo":
